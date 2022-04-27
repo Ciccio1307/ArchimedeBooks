@@ -4,7 +4,12 @@ During my last year of high School, we students had to commit a final project re
 
 
 
-#NOTE
+<br>
+<a href="http://ciccio1307.altervista.org/ElaboratoCodice/homeNuovoUtente.html">Visit the Website</a>.
+<br>
 
-The readme is not completed 
+<h1>NOTE</h1>
+The readme is not completed <br>
 
+<a href="https://github.com/braydoncoyer/tailwindcss-v2-dark-mode-template">
+ 
