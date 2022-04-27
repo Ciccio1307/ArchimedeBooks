@@ -8,8 +8,9 @@ During my last year of high School, we students had to commit a final project re
 <a href="http://ciccio1307.altervista.org/ElaboratoCodice/homeNuovoUtente.html">Visit the Website</a>.
 <br>
 
-<h1>NOTE</h1>
-The readme is not completed <br>
 
-<a href="https://github.com/braydoncoyer/tailwindcss-v2-dark-mode-template">
- 
+
+<h1>NOTE</h1>
+The readme is not completed , coming soon <br>
+
+Project Dev : 22/04/2021 - 20/05/2021 <br> 
