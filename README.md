@@ -1,4 +1,4 @@
-<center># WebSite-Project</center>
+# WebSite-Project
 
 ![logo](https://user-images.githubusercontent.com/94438481/165631273-a65131dd-909e-4297-9fb6-c514e26c1ead.PNG)
  
