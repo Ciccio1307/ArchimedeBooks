@@ -1,0 +1,76 @@
+<html>
+<head>
+    <link rel="stylesheet" href="cssElaborato.css">
+    <title>LoginStudenti</title>
+</head>
+<body>
+    <script type ="text/javascript">
+        function Annulla()
+            {
+             window.location.reload();
+        
+            }
+            function showPwd() {
+            var input = document.getElementById('pwd');
+            if (input.type === "password") {
+              input.type = "text";
+            } else {
+              input.type = "password";
+            }
+          }
+        </script>
+
+<h1><center><font
+    face="impact">Benvenuto<br>EFFETTUA IL LOGIN AL NOSTRO DATABASE STUDENTI</center><center> <img src="logo.PNG"  width="250" height="150"></h1><hr
+    style="height:3px;border:none;color:#000000;background-color:#000000;">
+  
+
+                               <br>
+                               <center>
+<div class="divTable blueTable">
+    <div class="divTableBody">
+    <div class="divTableRow">
+    <div class="divTableCell"><a href="homeNuovoUtente.html">Home</a></div>
+    <div class="divTableCell"><a href="registrazioneStudente.html">Registrati come cliente nel nuovo database</a></div>
+    <div class="divTableCell"><a href="libriInVendita.php">Visualizza Libri  in Vendita </a></div>
+    <div class="divTableCell"><a href="chiSiamoStudenti.html">Chi Siamo ? </a></div>
+    </div>
+    </div>
+    </div>
+    <br>
+                <BR>
+                <center>
+                  <img src="1024px-Crystal_Clear_app_Login_Manager.svg.png" width="150" height="150" >
+                  </center>
+            <fieldset>   
+    <center><h2>Login</h2></center>
+    <center><h3>Riempia i campi richiesti per effettuare l'accesso</h3></center>
+    </div>
+   
+    <form action="effettuaLoginStudenti.php" method="post">
+    <table><tr>
+  <td>    <label for="email">Email :</label></td>
+    <td><input type="text" name="email" background="#808080"></td>
+    </tr>
+  <tr>
+     
+   <td> <label for="pasw">Password</label></td>
+    <td><INPUT TYPE="password"  name="pwd" id="pwd" ></td>
+       <td> <input type="button" id="pass" onclick="showPwd()" value="Mostra/nascondi password"></td>
+      </tr>
+        </table>
+    
+    <center><br><input type="submit" id="esecuzione" value="LOGIN"> <input type ="reset" value="ANNULLA" id="pulsante" onclick="Annulla() "/> </center></center>
+    </form>
+    </center>
+    </fieldset>
+    <center>
+    <br><br>
+    <a href="registrazioneStudente.html">Non sei registrato?</a>
+    </center>
+    
+  
+     <marquee >Istituto Tecnico "Archimede"
+                    Esame di Stato 2021  Francesco Virzi 5C INFORMATICA AS 2020/21</marquee>
+</body>
+</html>

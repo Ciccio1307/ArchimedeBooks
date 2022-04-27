@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>RegistrazioneStudente</title>
+        <link rel="stylesheet" href="cssElaborato.css">
+    </head>
+    <body>
+        <script type ="text/javascript">
+        
+            function Annulla()
+                {
+                 window.location.reload();
+            
+                }
+                function showPwd() {
+                var input = document.getElementById('pwd');
+                if (input.type === "password") {
+                  input.type = "text";
+                } else {
+                  input.type = "password";
+                }
+                }
+                function showPwd2() {
+                var input = document.getElementById('pwd2');
+                if (input.type === "password") {
+                  input.type = "text";
+                } else {
+                  input.type = "password";
+                }
+              }
+            </script>
+ <h1><center><font
+    face="impact">Benvenuto<br>REGISTRATI AL NOSTRO SITO </center><center> <img src="logo.PNG"  width="250" height="150"></h1>
+    </h1><hr
+        style="height:3px;border:none;color:#000000;background-color:#000000;">
+      
+        
+        <center>
+            
+
+           
+                <div class="divTable blueTable">
+                    <div class="divTableBody">
+                    <div class="divTableRow">
+                      <div class="divTableCell"><a href="homeNuovoUtente.html">Home</a></div>
+                    <div class="divTableCell"><a href="effettuaLoginStudenti.html">Effettua il Login nel Database clienti</a></div>
+                    <div class="divTableCell"><a href="libriInVendita.php">Visualizza Libri  in Vendita </a></div>
+                    <div class="divTableCell"><a href="chiSiamoStudenti.html">Chi Siamo ? </a></div>
+                    </div>
+                    </div>
+                    </div>
+                    </center>
+                        <br>
+                <BR>
+                    <BR>
+                <center>
+                  <img src="sign-up-2314914_960_720.png" width="200" height="200" >
+                  </center>
+                <BIG>
+                  <fieldset>
+                    <center><h2>Registrazione</h2></center>
+<center><h3>Riempi i campi richiesti</h3></center>
+
+    <center>
+    <form action="registrazioneStudente.php" method="post">
+    
+       <BIG>
+       
+    <table><tr>
+       <td> <label for="nome">Nome:</label></td>
+        <td><INPUT TYPE="text" required name="nome"  ></td>
+    </tr>
+      <td>  <label for="cognome">Cognome:</label></td>
+      <td>  <INPUT TYPE="text" required name="cognome" ></td>
+      </tr>
+         <td>    <label for="data">Data di Nascita:</td></label>
+          <td>   <INPUT TYPE="date" required name="data" ></td>
+  </tr>
+               <td>  <label for="telefono">Telefono: (+ 39)</label></td>
+              <td>   <input type="text"  name="telefono" placeholder=" massimo 10 caratteri" required  maxlength="10"  ></td><br> <br>
+      </tr>
+              <td>   <label for="genere">Genere:</label></td>
+              <td>    <select name="genere" required id="genere" >
+                <option value="m">Uomo</option>
+                <option value="f">Donna</option>
+                <option value="a">Altro</option>
+              </select></td>
+               </tr>
+
+                
+    
+                         <td>    <label for="email">Email :</label></td>
+                      <td>   <INPUT TYPE="email" required name="email" placeholder="Devi inserire il tuo indirizzo di posta elettronica"  size="40"  ></td>
+                  </tr>
+    
+          <td>   <label for="pasw">Password :</label></td>
+          <td>   <INPUT TYPE="password"  name="pwd"  placeholder="Almeno 10 caratteri" id="pwd" required  minlength="10" size="20" required ></td>
+                 
+               <td>  <input type="button" id="pass" onclick="showPwd()" value="Mostra/nascondi password"></td>
+               </tr>
+               <td>  <label for="pasw2">Ridigita la Password :</label></td>
+                  
+          <td>   <INPUT TYPE="password" placeholder="Ripeti la password" name="pwd2" id="pwd2" size="20" required></td>
+               <td>  <input type="button" id="pass" onclick="showPwd2()" value="Mostra/nascondi password" ></td>
+                  </tr>
+                  </table>
+                    
+    <center><br><input type="submit" id="esecuzione" value="REGISTRATI"> <input type ="reset" value="ANNULLA" id="pulsante" onclick="Annulla() "/> </center>
+    </form>
+  </fieldset>
+    </center>
+        <marquee >Istituto Tecnico "Archimede"
+                Esame di Stato 2021  Francesco Virzi 5C INFORMATICA AS 2020/21</marquee>
+    </body>
+</html>
